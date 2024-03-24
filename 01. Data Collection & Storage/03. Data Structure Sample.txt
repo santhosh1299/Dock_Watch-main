@@ -1,0 +1,140 @@
+https://gbfs.bcycle.com/bcycle_boulder/gbfs.json
+
+--------------gbfs.json------------------------------
+{
+"ttl":60,
+"data":{
+	"en":{
+		"feeds":[
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/gbfs.json","name":"gbfs"},
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/gbfs_versions.json","name":"gbfs_versions"},
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/system_information.json","name":"system_information"},
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/station_information.json","name":"station_information"},
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/station_status.json","name":"station_status"},
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/system_pricing_plans.json","name":"system_pricing_plans"},
+			{"url":"https://gbfs.bcycle.com/bcycle_boulder/system_regions.json","name":"system_regions"}
+				]
+		}
+	},
+"version":"1.1",
+"last_updated":1697476326
+}
+
+------------------gbfs_versions.json------------------------------
+{
+"ttl":3600,
+"last_updated":1697476512,
+"data":{},
+"version":"1.1"
+}
+
+----------------system_information.json------------------------------
+
+{
+"ttl":60,
+"data":{
+	"rental_apps":{
+		"android":{"store_uri":"https://play.google.com/store/apps/details?id=com.bcycle","discovery_uri":"bcycle://"},
+		"ios":{"store_uri":"https://apps.apple.com/us/app/bcycle/id371185597","discovery_uri":"bcycle://"}},
+	"purchase_url":null,
+	"system_id":"bcycle_boulder",
+	"name":"Boulder BCycle",
+	"language":"en",
+	"url":"https://boulder.bcycle.com",
+	"phone_number":"303-532-4412",
+	"email":"boulder@bcycle.com",
+	"timezone":"America/Denver"
+	},
+"version":"1.1",
+"last_updated":1697476541
+}
+
+---------------station_information.json------------------------------
+
+{
+"ttl":60,
+"data":
+	{
+	"stations":[
+		{
+			"lon":-105.26385,
+			"lat":40.00811,
+			"rental_uris": {
+				"ios":"https://www.bcycle.com/applink?system_id=bcycle_boulder&station_id=bcycle_boulder_1855&platform=iOS",
+				"android":"https://www.bcycle.com/applink?system_id=bcycle_boulder&station_id=bcycle_boulder_1855&platform=android"
+				},
+			"_bcycle_station_type":"Kiosk and Station",
+			"address":"SE corner of Folsom & Colorado",
+			"name":"Folsom & Colorado",
+			"station_id":"bcycle_boulder_1855"
+		},
+		
+		------------------and 53 more station information----------
+		]
+	},
+"version":"1.1",
+"last_updated":1697477132
+}
+
+
+----------------station_status.json------------------------------
+{
+"ttl":60,
+"last_updated":1697476715,
+"data":
+	{"stations":[
+		{
+			"is_returning":1,
+			"is_renting":1,
+			"is_installed":1,
+			"num_docks_available":7,
+			"num_bikes_available":8,
+			"last_reported":1697476715,
+			"num_bikes_available_types":{"electric":8,"smart":0,"classic":0},
+			"station_id":"bcycle_boulder_1855"
+			},
+		
+		-----and 53 more station status information-----------
+		
+		]
+	},
+"version":"1.1"
+}
+
+
+-----------------system_pricing_plans.json----------------------
+
+{
+"ttl":60,
+"data":
+	{"plans":[
+		{
+			"price":0.0000,
+			"is_taxable":0,
+			"url":"boulder.bcycle.com",
+			"description":"Use CU-issued email. $5/half hour fees apply to trips over 60 minutes. For enrolled, fee-paying CU Boulder students only.",
+			"currency":"USD",
+			"name":"CU Boulder Student",
+			"plan_id":"bcycle_boulder_592"
+		},
+		
+		{"price":30.0000,"is_taxable":0,"url":"boulder.bcycle.com","description":"Great for a few days of access, or as a recurring monthly subscription. Provides an unlimited number of 60-minute trips. $5/half hour for trips over 60 minutes.","currency":"USD","name":"Month Pass","plan_id":"bcycle_boulder_301"},
+		
+		{"price":150.0000,"is_taxable":0,"url":"boulder.bcycle.com","description":"Annual pass for an unlimited number of 60-minute trips. $5/half hour for trips over 60 minutes.","currency":"USD","name":"Annual Pass","plan_id":"bcycle_boulder_77"},
+		
+		{"price":7.0000,"is_taxable":0,"url":"boulder.bcycle.com","description":"$7 for each 30-minute ride. $7 for each additional 30 minutes.","currency":"USD","name":"Single Ride","plan_id":"bcycle_boulder_818"}
+		
+		]
+	},
+"version":"1.1",
+"last_updated":1697477554
+}
+
+-------------------------system_regions.json------------------------------
+
+{
+"ttl":60,
+"data":{"regions":[]},
+"version":"1.1",
+"last_updated":1697477976
+}
