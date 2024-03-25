@@ -1,6 +1,6 @@
 # Boulder BCycle Wait-time Estimation
 
-![Tableau Dashboard](dashboard_screenshot.png)
+![image](dashboard_screenshot.png)
 
 [Presentation Link](https://www.youtube.com/watch?v=QEBMTk4OsAE)    
 
