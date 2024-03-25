@@ -39,6 +39,7 @@ Using a random forest model, we achieved an overall accuracy of 75%.
 ### Station-wise Accuracy:
 
 In the provided image, you can see the station-wise accuracy breakdown.
-![Station-wise Accuracy](https://github.com/santhosh1299/boulder_bcycle_wait_time_estimation/blob/master/stationwise_accuracy.png)
+<img src="https://github.com/santhosh1299/boulder_bcycle_wait_time_estimation/blob/master/stationwise_accuracy.png" alt="Station-wise Accuracy" width="500" height="370">
+
 
 
