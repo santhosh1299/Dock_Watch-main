@@ -32,3 +32,13 @@ In Boulder's BCycle system, users often encounter reliability issues and struggl
 ![image](https://github.com/Niranjan-Cholendiran/Dock_Watch/assets/78549555/918cd3c9-5492-49f0-9b64-d1bce56b77f7)
 
 
+**Results**
+
+Using a random forest model, we achieved an overall accuracy of 75%.
+
+### Station-wise Accuracy:
+
+In the provided image, you can see the station-wise accuracy breakdown.
+![Station-wise Accuracy](https://github.com/santhosh1299/boulder_bcycle_wait_time_estimation/blob/master/stationwise_accuracy.png)
+
+
