@@ -1,6 +1,11 @@
 # Boulder BCycle Wait-time Estimation
 
+
+
+## Tableau Dashboard
 ![image](https://github.com/santhosh1299/boulder_bcycle_wait_time_estimation/blob/master/dasboard_screenshot.png)
+
+[Link to Tableau Visualization](https://public.tableau.com/views/BoulderBcycleWaitTimeEstimation/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 [Presentation Link](https://www.youtube.com/watch?v=QEBMTk4OsAE)    
 
